@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/animetvstream/src/components/AdBanner.tsx"],"sourcesContent":["'use client';\n\ninterface AdBannerProps {\n  size?: 'small' | 'medium' | 'large';\n  className?: string;\n}\n\nexport default function AdBanner({ size = 'medium', className = '' }: AdBannerProps) {\n  const sizeClasses = {\n    small: 'h-20',\n    medium: 'h-32',\n    large: 'h-48'\n  };\n\n  return (\n    <div className={`bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center ${sizeClasses[size]} ${className}`}>\n      <div className=\"text-center text-gray-500\">\n        <div className=\"text-sm font-medium mb-1\">Advertisement Space</div>\n        <div className=\"text-xs\">Your ads could be here</div>\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;AAOe,SAAS,SAAS,KAAkD;QAAlD,EAAE,OAAO,QAAQ,EAAE,YAAY,EAAE,EAAiB,GAAlD;IAC/B,MAAM,cAAc;QAClB,OAAO;QACP,QAAQ;QACR,OAAO;IACT;IAEA,qBACE,6LAAC;QAAI,WAAW,AAAC,kGAAsH,OAArB,WAAW,CAAC,KAAK,EAAC,KAAa,OAAV;kBACrI,cAAA,6LAAC;YAAI,WAAU;;8BACb,6LAAC;oBAAI,WAAU;8BAA2B;;;;;;8BAC1C,6LAAC;oBAAI,WAAU;8BAAU;;;;;;;;;;;;;;;;;AAIjC;KAfwB","debugId":null}}]
+}
